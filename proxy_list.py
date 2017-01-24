@@ -31,11 +31,12 @@ def get_pages(html):
 
 
 def save(projects):
-    with open('proxy.csv', 'a') as csvfile:
+    with open('proxy.csv', 'w') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(('ip', 'port'))
+        writer.writerow('ip:port'.split())
         for project in projects:
-            writer.writerow((project['ip'], project['port']))
+            a = project['ip'] + ':' + project['port']
+            writer.writerow(a.split())
         print("Файл сохранен.")
 
 
