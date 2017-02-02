@@ -15,3 +15,13 @@ pip install beautifulsoup4
 Если вам надоели ваши обои на рабочем столе<br>
 Скачиваем рандомные картинки с [Wallhaven.cc](https://alpha.wallhaven.cc) и пользуемся.<br>
 Для работы необходимо наличие библиотек `requests`  и `BeautifulSoup`.
+
+## Download photos from VK
+Скачиваем фотки из диалога Вконтакте.<br>
+Для работы нужна библиотека `vk`<br>
+Команда для установки:
+```
+pip install vk
+```
+
+
