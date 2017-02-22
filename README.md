@@ -17,11 +17,19 @@ pip install beautifulsoup4
 Для работы необходимо наличие библиотек `requests`  и `BeautifulSoup`.
 
 ## Download photos from VK
-Скачиваем фотки из диалога Вконтакте.<br>
+Скачиваем фотографии из диалога Вконтакте.<br>
 Для работы нужна библиотека `vk`<br>
 Команда для установки:
 ```
 pip install vk
 ```
-
+## Visualization of friendly relations
+![Graph](https://networkx.readthedocs.io/en/stable/_images/random_geometric_graph.png "Graph")
+Визуализация своих и общих друзей в виде графа. <br>
+Для работы нужны библиотеки `vk`, `matplotlib`, `networkx`, `NumPy` <br>
+```
+sudo apt-get install python-matplotlib
+sudo pip install networkx
+sudo pip install numpy
+```
 
