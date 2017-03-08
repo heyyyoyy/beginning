@@ -33,5 +33,5 @@ sudo pip install networkx
 sudo pip install numpy
 ```
 ## vk8.03
-Рассылка поздравляшек с 8 марта<br>
+Рассылка поздравляшек с 8 марта.<br>
 
